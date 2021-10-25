@@ -1,13 +1,18 @@
 import React from 'react';
+import Review from './Review'
+
 
 function App() {
   return (
-    <div className="App">
-      
-      <h3>
-        reviews app
-      </h3>
-    </div>
+    <main>
+      <section className="container">
+        <div className="title">
+          <h2>Avaliações</h2>
+          <div className="underline"></div>
+        </div>
+        <Review />
+      </section>
+    </main>
   );
 }
 
